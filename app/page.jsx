@@ -34,7 +34,7 @@ const Common = dynamic(() => import('@/components/canvas/View').then((mod) => mo
 function Page() {
   return (
     <Layout>
-        <h1 className='font-bold'>3D web content in development</h1>
+        <h1 className='font-bold'>This is the default puppy. You may pet him gently :)</h1>
         <View orbit className='flex h-full w-full justify-center'>
           <Suspense fallback={null}>
             <Dog scale={2} position={[0, -1.6, 0]} rotation={[0.0, -0.3, 0]} />
